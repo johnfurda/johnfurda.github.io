@@ -7,7 +7,7 @@ body {
     height: 100px;
     width: 100%;
     display: inline;
-    border-bottom: 2px; border-bottom-color: #330000;
+    border: 2px; color: #330000;
 }
 #navbar {
     position: fixed;
