@@ -1,54 +1,64 @@
 body {
      background-color: white;
-     text-align: center;
-}
-#header {
-    width: 100%;
-    height: 100px;
-    width: 100%;
-    display: inline;
-    border: 2px solid #000000;  
-}
-#navbar {
-    position: fixed;
-    top:80px;
-    text-align: center;
-    list-style-type: none;
-}          
-ul{
-    list-style-type: none;
-    position: relative;
-    margin: -10px;
+
 }
 
-li {
-    display: inline;
+#header {
+    position: relative;
+    width: 98%;
+    height: 80px;
     border: 2px solid #000000;
+    clear: left;
+
+}
+#header div{
+    list-style-type: none;
+    position: relative;
+    display: inline;
+}
+#logocontainer {
+    float: left;
+    padding: 1px;
+    margin-top: -20;
+ }
+ #logo {
+    height: 70px;
+    width: 70px;
+ }
+ #twitter {
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+
+ }   
+ #googleplus {
+    float: right;
+    margin: 5px;
+    
+ }
+#navbar {
+    position: relative;
+    width:97%;
+    list-style-type: none;
+    padding-left: 3%;
+
+}          
+#navbar ul{
+    list-style-type: none;
+    position: relative;
+    width: 80%;
+
+}
+
+#navbar li {
+    display: inline;
     font-family: Arial, Tahoma, sans-serif;
     font-size: 2gm;
     color: black;
     padding: 5px;
 }
-#twitter {
-    background-color: none;
-}
-#googleplus {
-    background-color: none;
-}
 
-h2 {
-    font-family: Arial, Tahoma, sans-serif;
-    font-size: 4gm;
-    text-align: center;
-    color: black;
-}
-
-p {
-    font-size: 1gm;
-    font-family: Arial,tahoma, sans-serif;
-    text-align: left;
-    color: black;
-}
 div img {
     height: 30px;
     width: 30px;
@@ -57,4 +67,7 @@ a {
      text-decoration: none;
      color: black;
 }
+
+
+
 
