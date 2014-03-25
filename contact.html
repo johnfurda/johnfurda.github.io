@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-           <title>JohnFurda Web Devlopment</title>
+        <link type="text/css" rel="stylesheet" href="portfliostylesheet.css" media="all"/>
+        <meta charset="utf-8" />
+    
+           <title>contact</title>
+
     </head>
 <body>
     <div id="header">
-            <div id="navbar">
+        <div id="logocontainer"><img id="logo"src="JFlogored.gif"/></div>
+        <div id="twitter"><a href="https://twitter.com/johnfurda"><img src="twitter.jpeg"/></a></div>
+        <div id="googleplus"><a href="https://plus.google.com/u/0/+Johnfurda"/><img src="google-plus.png"/></a></div>
+                  
+    </div> 
+    <div id="navbar">
                 <ul>
                     <li><a href="index.html"/>Home</a></li>
                     <li><a href="about.html"/>About Me</a></li>
                     <li><a href="portfolio.html"/>Portfolio</a></li>
                     <li><a href="contact.html"/>Contact</a></li>
-                    <li id="twitter"><a href="https://twitter.com/johnfurda"><img src="twitter.jpeg"/></a></li>
-                    <li id="googleplus"><a href="https://plus.google.com/u/0/+Johnfurda"/><img src="google-plus.png"/></a></li>
                 </ul>
-            </div>
-    </div>              
-    <img id="logo"src="JFlogored.gif"/> 
+
+    <h2>Contact Form</h2>
+    
+    <form class="form">
+        
+        <p class="name">
+            <input type="text" name="name" id="name" placeholder="John Doe" />
+            <label for="name">Name</label>
+        </p>
+        
+        <p class="email">
+            <input type="text" name="email" id="email" placeholder="mail@example.com" />
+            <label for="email">Email</label>
+        </p>
+    
+        <p class="text">
+            <textarea name="text" placeholder="Write something to us" /></textarea>
+        </p>
+        
+        <p class="submit">
+            <input type="submit" value="Send" />
+        </p>
+    </form>
+
            
 </body>
 </html>
+
+
