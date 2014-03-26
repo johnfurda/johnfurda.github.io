@@ -1,72 +1,108 @@
 body {
-     background: black;
-     text-align: center;
+     background-color: white;
+
 }
+
 #header {
-    width: 100%;
-    height: 100px;
-    width: 100%;
+    position: relative;
+    width: 98%;
+    height: 80px;
+    border: 2px solid #000000;
+    clear: left;
+
 }
-#navbar {
-    position: fixed;
-    top:80px;
-    text-align: center;
-}          
-ul{
+#header div{
     list-style-type: none;
     position: relative;
-    margin: -10px;
+    display: inline;
+}
+#logocontainer {
+    float: left;
+    padding: 1px;
+    margin-top: -20;
+
+ }
+ #logo {
+    height: 70px;
+    width: 70px;
+
+ }
+ #twitter {
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+
+ }   
+ #googleplus {
+    float: right;
+    margin: 5px;
+    
+ }
+#navbar {
+    position: relative;
+    width:97%;
+    list-style-type: none;
+    padding-left: 3%;
+    clear: right;
+
+}          
+#navbar ul{
+    list-style-type: none;
+    position: relative;
+    width: 80%;
+
 }
 
-li {
+#navbar li {
     display: inline;
-    border: 2px solid #000000;
     font-family: Arial, Tahoma, sans-serif;
     font-size: 2gm;
-    color: white;
+    color: black;
     padding: 5px;
-    border-radius: 5px 5px;
-    background-color: #330000;
-}
-#twitter {
-    background-color: none;
-}
-#googleplus {
-    background-color: none;
-}
 
-h2 {
-    font-family: Arial, Tahoma, sans-serif;
-    font-size: 4gm;
-    text-align: center;
-    color: white;
 }
+a:link    {color:#000000;}
+a:visited {color:#000000;}
+a:hover   {color:#cc3333;}
+a:active  {color:green;}
 
-p {
-    font-size: 1gm;
-    font-family: Arial,tahoma, sans-serif;
-    text-align: left;
-    color: white;
-}
 div img {
     height: 30px;
     width: 30px;
 }
 a {
      text-decoration: none;
-     color: white;
+     color: black;
 }
-#logo {
-    top: 1px;
+#text {
+    position: relative;
+    display: inline-block;
+    float: left;
+    border: 2px solid #000000;
+    width: 45%;
+    text-align: center;
+}
+h2 {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 4gm;
+    color: #000000;
+}
+
+p {
+    font-size: 1gm;
+    font-family: Arial,tahoma, sans-serif;
+    text-align: center;
+    color: #000000;
+}    
+#graphic {
+    position: relative;
+    float: right;
+    width: 45%;
+}
+#me {
     height: 250px;
     width: 250px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-}
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
 }
 
 /* ===========================
@@ -131,4 +167,6 @@ input:focus, textarea:focus {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;     
 }
+
+
 
